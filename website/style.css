@@ -1,4 +1,5 @@
 
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -27,10 +28,7 @@ li a {
   text-decoration: none;
 }
 
-a:visited {
-  color: purple;
-}
-
+/* Change the link color to #111 (black) on hover */
 li a:hover {
   background-color: #111;
 }
