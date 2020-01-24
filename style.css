@@ -1,0 +1,54 @@
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+  width: 160px
+
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.opener {
+  font-size: 50px;
+  font-family: "Arial", sans-serif;
+  font-weight: normal;
+  text-align: center;
+  background-color: #DDE0E3;
+  padding: 20px 10px 10px 20px;
+  margin: auto;
+}
+
+.first-para {
+  padding: 10px, 5px, 5px, 0px;
+  text-align: center;
+}
+
+.vehicle-type {
+  text-align: center;
+  font-size: 30px;
+  padding: 10px 10px, 10px, 5px;
+}
