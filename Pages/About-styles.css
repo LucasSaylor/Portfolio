@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bg-light  {
+  background-color: beige !important;
+}
+
+.nav-item, .navbar-brand {
+  font-family: Bell MT
+}
+
+.photo-container-1 {
+  display: flex;
+  margin-top: 500px;
+  margin-bottom: 50px;
+}
+
+.first-item {
+  display: flex;
+  margin-left: 150px;
+}
+
+.photo-1-words {
+  display: flex;
+  width: 400px;
+  margin-left: 20px;
+}
+
+.footer {
+  display: flex;
+  width: 1275px;
+  height: 50px;
+  background-color: beige;
+  justify-content: center;
+}
+
+.foot-link {
+  margin-top: 15px;
+}
